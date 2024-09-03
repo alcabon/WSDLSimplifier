@@ -1,3 +1,3 @@
 # WSDLSimplifier
 
-Simplify AccountSOAPService.xml into SimplifiedAccountSOAPService.wsdl
+Simplify *AccountSOAPService.xml* into *SimplifiedAccountSOAPService.wsdl*
