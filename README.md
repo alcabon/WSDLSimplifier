@@ -20,7 +20,6 @@ javac WSDLSimplifier.java
 Run
 java WSDLSimplifier
 
-text
 The simplified WSDL will be written to `SimplifiedAccountSOAPService.wsdl`.
 
 ## Project Structure
@@ -29,9 +28,8 @@ The simplified WSDL will be written to `SimplifiedAccountSOAPService.wsdl`.
 .
 ├── WSDLSimplifier.java # Main utility with comments
 └── AccountSOAPService.xml # Input WSDL (user-provided)
+└── SimplifiedAccountSOAPService.wsdl # Output WSDL (result of WSDLSimplifier.cls)
 ```
-
-text
 
 ## Contributing
 1. Fork the repository  
