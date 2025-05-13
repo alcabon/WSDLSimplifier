@@ -15,10 +15,10 @@ A command-line Java utility to simplify WSDL files by removing unused SOAP/WSDL 
 ## Usage
 
 Compile
-javac WSDLSimplifier.java
+`javac WSDLSimplifier.java`
 
 Run
-java WSDLSimplifier
+`java WSDLSimplifier`
 
 The simplified WSDL will be written to `SimplifiedAccountSOAPService.wsdl`.
 
@@ -27,6 +27,7 @@ The simplified WSDL will be written to `SimplifiedAccountSOAPService.wsdl`.
 ```
 .
 ├── WSDLSimplifier.java # Main utility with comments
+├── WSDLSimplifier.cls # Compiled java class
 └── AccountSOAPService.xml # Input WSDL (user-provided)
 └── SimplifiedAccountSOAPService.wsdl # Output WSDL (result of WSDLSimplifier.cls)
 ```
