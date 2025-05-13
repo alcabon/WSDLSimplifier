@@ -24,9 +24,12 @@ text
 The simplified WSDL will be written to `SimplifiedAccountSOAPService.wsdl`.
 
 ## Project Structure
+
+```
 .
 ├── WSDLSimplifier.java # Main utility with comments
 └── AccountSOAPService.xml # Input WSDL (user-provided)
+```
 
 text
 
