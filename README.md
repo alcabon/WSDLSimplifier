@@ -28,7 +28,7 @@ The simplified WSDL will be written to `SimplifiedAccountSOAPService.wsdl`.
 .
 ├── WSDLSimplifier.java # Main utility with comments
 ├── WSDLSimplifier.cls # Compiled java class
-└── AccountSOAPService.xml # Input WSDL (user-provided)
+├── AccountSOAPService.xml # Input WSDL (user-provided)
 └── SimplifiedAccountSOAPService.wsdl # Output WSDL (result of WSDLSimplifier.cls)
 ```
 
